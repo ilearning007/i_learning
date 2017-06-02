@@ -1,0 +1,219 @@
+#vista-inicio{
+	background-image: url("../img/index/persona_aprendiendo.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+#contenedor-informacion-inicio{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.informacion-inicio{
+	float: left;
+}
+
+.informacion-inicio h1, p{
+	text-align: center;
+}
+
+div.formulario{ 
+	padding: 1em 2em;
+	float: right;
+	background: rgba(255,255,255,.5);
+	box-shadow: none;
+	border: none;
+	border-radius: 15px;
+}
+
+div#barra-gris{
+	width: 100%;
+	border-bottom: .1em solid #757575;
+	border-top: .1em solid #757575;
+	background-color: #E0E0E0;
+	padding: .8em 0;
+	position: absolute;
+	bottom: 0px;
+}
+
+
+/*      Informacion         */
+
+/* Estructura de las cartas inicio */
+
+.articulo{
+	width: 80%;
+	margin: auto;
+	border-radius: 15px;
+	border-bottom: .1em solid #757575;
+	border-top: .1em solid #757575;
+	border-right: .1em solid #757575; 
+	border-left: .1em solid #757575;
+	background-color: #fff;
+	clear: both;
+	overflow: hidden;
+
+}
+
+
+.imagen-izquierda  img{
+	float: left;
+	width: 20%;
+	padding-left: 2em;
+	padding-bottom: 2em;
+}
+
+.imagen-derecha  img{
+	float: right;
+	width: 20%;
+	padding-right: 2em;
+	padding-bottom: 2em;
+}
+
+.imagen-izquierda  p{
+	float: left;
+	width: 80%;
+}
+
+.imagen-derecha  p{
+	float: right;
+	width: 80%;
+}
+
+.imagen-arriba p{
+	text-align: center;
+	width: 70%;
+}
+
+
+div#imagen img{
+	width: 100%;
+}
+
+
+div#final{
+	width: 100%;
+	border-bottom: .1em solid #757575;
+	border-top: .1em solid #757575;
+	background-color: #222;
+	padding: 2em 5em;
+}
+
+
+div#tablas{
+	overflow: hidden;
+}
+
+#imagen-george{
+	background-image: url("../img/index/george2.jpg");
+	width: 100%;
+	height: 30em;
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+}
+
+div.texto-george{
+	float: right;
+	margin: 1em;
+}
+
+
+div#github{
+	float: left;
+	width: 50%;
+	margin: auto;
+	border-radius: 15px;
+	border-bottom: .1em solid #757575;
+	border-top: .1em solid #757575;
+	border-right: .1em solid #757575; 
+	border-left: .1em solid #757575;
+	
+
+}
+
+ div#trofeo{
+	float: left;
+	margin: auto;
+	width: 50%;
+	border-radius: 15px;
+	border-bottom: .1em solid #757575;
+	border-top: .1em solid #757575;
+	border-right: .1em solid #757575; 
+	border-left: .1em solid #757575;
+	
+ }
+
+ div#if, #s, #aux, #pp, #c{
+	margin: 1em;
+	display: inline-block;
+	border-bottom: .1em solid #757575;
+	border-top: .1em solid #757575;
+	border-right: .1em solid #757575; 
+	border-left: .1em solid #757575;
+	
+}
+
+.row{
+	margin: 0;
+	border-top: .1em solid #757575;
+
+}
+
+div#contenido{
+	overflow: hidden;
+}
+
+.icon-trophy{
+	color: gold;
+	display: block;
+	font-size: 15em;
+	text-align: center;
+	
+}
+
+.icon-github{
+	display: block;
+	font-size: 15em;
+	text-align: center;
+}
+
+
+.primer-texto-barra-gris{
+	display: block;
+}
+
+.segundo-texto-barra-gris{
+	display: none;
+}
+
+
+/*
+ *	Adaptacion a moviles 
+ */
+@media(max-width: 768px){
+
+	#vista-inicio{
+	background-image: url("../img/index/fondo-1.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	}
+
+	.primer-texto-barra-gris{
+		display: none;
+	}
+
+	.segundo-texto-barra-gris{
+		display: block;
+	}
+
+	div.formulario{
+		display: none;
+	}

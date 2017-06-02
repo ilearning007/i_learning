@@ -1,0 +1,44 @@
+.alineacion{
+	float: right;
+}
+form{
+	width:300px;
+	margin: 0 auto;
+}
+fieldset{
+
+	background: #42A5F5;
+	border: 1px solid #42A5F5;
+	border-radius: 5px;
+	padding: 0 0 0 20px
+}
+input, button{
+	border-radius: 5px;
+	position: relative;	
+	width: 200px;
+	height: 40px;
+	padding: 0;
+}
+input{
+	color: #42A5F5;
+	border:none;
+}
+button{
+	width :50px;
+	border:none;
+	background: gray;
+
+}
+
+.ultimo-li{
+	box-sizing: border-box;
+	position: absolute;	
+	right: .7em;
+}
+
+.barra-busqueda{
+	padding: 1em;
+}
+span[class*="icon-"]{
+	color: #42A5F5;
+}

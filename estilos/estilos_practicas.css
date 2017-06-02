@@ -1,0 +1,76 @@
+    div.Contenido {
+        float: left;
+        margin-right: 10px;
+        width: 80%;
+        background-color: white;
+        border-radius: 9px;
+        text-align: center;
+    }
+    div.Titulo {
+        clear: left;
+        float: left;
+		width: 80%;
+        margin-top: 10px;
+        background-color: white;
+        border-radius: 9px;
+    }    
+	div.Barra{
+		
+	}
+
+    div.Relacionados {
+        overflow: hidden;
+        background-color: white;
+        border-radius: 9px;
+        width: 18%;
+        margin-bottom: 1em;
+    }
+
+    div[class*="preg-"]{
+    	background-color: white;
+    	width: 80%;
+    	height: 10em;
+    	border-radius: 9px;
+
+    }
+   		.preg-1{
+   			position: absolute;
+			z-index:1 
+    }
+        .preg-2{
+        	position: absolute;
+			z-index: 2
+    }
+        .preg-3{
+        	position: absolute;
+			z-index: 3
+    }
+        .preg-4{
+        	position: absolute;
+			z-index: 4
+    }
+        .preg-5{
+        	position: absolute;
+			z-index:5 
+    }
+        .preg-6{
+        	position: absolute;
+			z-index: 6
+    }
+        .preg-7{
+        	position: absolute;
+			z-index: 7
+    }
+        .preg-8{
+        	position: absolute;
+			z-index: 8
+    }
+        .preg-9{
+        	position: absolute;
+			z-index: 9
+    }    
+    	.preg-10{
+    		position: absolute;
+			z-index:10 
+    }
+

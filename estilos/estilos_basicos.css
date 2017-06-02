@@ -1,0 +1,108 @@
+/* Quita el margen y el relleno de todos los elementos */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header span, #vista-inicio{
+	/* Importando letra estilo Roboto */
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.informacion-inicio, div#barra-gris {
+	/* importando letra baloo */
+	font-family: 'Baloo', cursive;
+}
+
+#barra-gris h2{
+	opacity: 0.87;
+	font-weight: lighter;
+}
+
+.informacion-inicio{
+	color: #42A5F5;
+	/* Sombra en letras de inicio */
+	 text-shadow:
+	   -1px -1px 0 #fff,
+	    1px -1px 0 #fff,
+	   -1px 1px 0 #fff,
+	    1px 1px 0 #fff;
+}
+
+#vista-inicio{
+	font-size: 22px;
+}
+
+div#barra-gris h2{
+	color: #757575;
+	text-align: center;
+}
+
+div#Estructura h2{
+	color: #42A5F5;
+	text-align: center;
+}
+
+div#Estructura p{
+	text-align: center;
+	opacity: .87;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: lighter;
+
+}
+
+div#usos h2{
+	color: #42A5F5;
+	text-align: center;
+}
+
+div#usos p{
+	text-align: center;
+	opacity: .87;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: lighter;
+
+}
+
+div#ejemplos h2{
+	color: #42A5F5;
+	text-align: center;
+}
+
+div#ejemplos p{
+	text-align: center;
+	opacity: .87;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: lighter;
+
+}
+
+div#tablas h2{
+	color: #42A5F5;
+	text-align: center;
+}
+
+div#tablas p{
+	text-align: center;
+	opacity: .87;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: lighter;
+
+}
+
+#main div p{
+	font-family: 'Roboto', sans-serif;
+}
+
+.texto-george{
+	font-family: cursive;
+	color: #757575;
+	opacity: .87;
+
+}

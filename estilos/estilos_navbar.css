@@ -1,0 +1,79 @@
+header{
+	padding: .2em;
+	background-color: #42A5F5;
+}
+
+/* Lista de barra de navegacion */
+#barra-de-navegacion li{
+	display: inline-block;
+	background-color: #42A5F5;
+	color: white;
+	border-radius: 15px;
+}
+
+#barra-de-navegacion li:hover{
+	background-color: #01579B;
+	color: white;
+}
+
+/* Animacion de transicion p*/
+#barra-de-navegacion li{
+	transition: background-color 0.3s ease-out 0.1s;
+}
+
+/* Links en el navbar */
+nav li > a{
+	display: inline-block;
+	/* Importando letra estilo Roboto */
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: white;
+	border-radius: 15px;
+	padding: 1.5em 2em;
+}
+
+#barra-de-navegacion .icon-menu{
+	display: none;
+}
+
+.icono-home{
+	font-size: 24px;
+	display: block;
+	color: white;
+	border-radius: 15px;
+	padding: .8em 1.2em;
+}
+
+/*
+ *	Adaptacion a moviles 
+ */
+@media(max-width: 768px){
+
+	#barra-de-navegacion ul .no-icono{
+		display: none;
+	}
+	
+	#barra-de-navegacion span[class*="icon-"]{
+		font-size: 24px;
+		display: block;
+		color: white;
+		border-radius: 15px;
+		padding: .8em 1.2em;
+	}
+
+	li.icono{
+		float: right;
+	}
+
+	#barra-de-navegacion ul{
+		overflow: hidden;
+	}
+
+	.icono-home{
+		float: left;
+		font-size: 24px;
+		padding: .2em 1em;
+		color: white;
+	}
+
+}
