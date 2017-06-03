@@ -1,52 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>I_learning</title>
-	<link rel="stylesheet" href="../estilos/estilos_formularios.css">
-	<link rel="stylesheet" href="../estilos/estilos_navbar.css">
+	<title>I_Learning</title>
+	<link rel="stylesheet" href="../estilos/estilos_formularios_registro_usuario.css">
 	<link rel="stylesheet" href="../estilos/estilos_basicos.css">
-	
 </head>
 <body>
 	<div id="contenedor">
-	<header>
-		<!-- Barra de navegacion, o menu -->
-		<nav id="barra-de-navegacion">
-			<ul>
-				<li><a href="usos.html">Usos</a></li>
-				<li><a href="ejemplos.html">Ejemplos</a></li>
-				<li><a href="estructura.html">Estructura</a></li>
-				<li><a href="ejercicios.html">Ejercicios</a></li>
-			</ul>
-		</nav>
-	</header>
-		<form>
-			<label for="nuevo_nombre_usuario">Nombre de usuario</label>
-			<br>
-			<input type="text" name="nuevo_nombre_usuario" class="input-nombre-usuario" id="in-user">
-			<br>
-
-			<label for="nuevo_contrasena_usuario">Correo electronico</label>
-			<br>
-			<input type="text" name="nuevo_correo_usuario" class="input-correo-usuario" id="in-password">
-			<br>
-
-			<label for="nuevo_contrasena_usuario">Defina su contraseña</label>
-			<br>
-			<input type="password" name="nuevo_contrasena_usuario" class="input-pass-usuario">
-			<br>
-
-			<label for="confirmar_contrasena_usuario">Confirme su contraseña</label>
-			<br>
-			<input type="password" name="confirmar_contrasena_usuario" class="input-pass-usuario">
-			<br>
-
-			<input type="submit" name="enter" value="ACCEPT" class="submit" id="btn-submit">
-
+		<form method="post" action="../php/registro_usuario.php" id="form-registro-usuario">
+			<label for="user">Username</label><br>
+			<input type="text" name="usr_name"><br>
+			<label for="correo">Email</label><br>
+			<input type="text" name="usr_email"><br>
+			<label for="pass">Password</label><br>
+			<input type="password" name="usr_pass_1"><br>
+			<label for="pass_confirm">Confirm password</label><br>
+			<input type="password" name="usr_pass_2"><br>
+			<input type="submit" name="enter" value="ACCEPT" id="btn-submit">
 		</form>
 	</div>
-	<script src="../script/script_basico.js"></script>
-	<script src="../script/script_formularios.js"></script>
 </body>
 </html>

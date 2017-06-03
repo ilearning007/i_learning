@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 
-header span, #vista-inicio{
+header span, #vista-inicio, #form-registro-usuario{
 	/* Importando letra estilo Roboto */
 	font-family: 'Roboto', sans-serif;
 
