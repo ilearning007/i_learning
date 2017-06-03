@@ -1,0 +1,72 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M1024 192v640c0 36.288-27.712 64-64 64h-64v-580.8l-384 275.712-384-275.712v580.8h-64c-36.288 0-64-27.712-64-64v-640c0-18.112 6.912-34.112 18.368-45.568 11.52-11.584 27.584-18.432 45.632-18.432h21.312l426.688 309.312 426.688-309.312h21.312c18.112 0 34.112 6.912 45.632 18.432 11.456 11.456 18.368 27.456 18.368 45.568z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(209, 72, 54)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "brand",
+          "gmail"
+        ],
+        "grid": 0
+      },
+      "attrs": [
+        {
+          "fill": "rgb(209, 72, 54)"
+        }
+      ],
+      "properties": {
+        "order": 1,
+        "id": 0,
+        "prevSize": 32,
+        "code": 59648,
+        "name": "brand"
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 0
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

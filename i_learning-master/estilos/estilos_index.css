@@ -23,10 +23,6 @@
 	text-align: center;
 }
 
-#barra-de-navegacion{
-	position: relative;
-}
-
 div.formulario{ 
 	padding: 1em 2em;
 	float: right;
@@ -46,15 +42,6 @@ div#barra-gris{
 	bottom: 0px;
 }
 
-div#barra-gris2{
-	width: 100%;
-	border-bottom: .1em solid #757575;
-	border-top: .1em solid #757575;
-	background-color: #E0E0E0;
-	padding: .8em 0;
-	position: relative;
-}
-
 
 /*      Informacion         */
 
@@ -71,7 +58,6 @@ div#barra-gris2{
 	background-color: #fff;
 	clear: both;
 	overflow: hidden;
-	position: relative;
 
 }
 
@@ -100,6 +86,12 @@ div#barra-gris2{
 	width: 80%;
 }
 
+.imagen-arriba img{
+	width: 30%;
+	display: block;
+	margin: auto;
+}
+
 .imagen-arriba p{
 	text-align: center;
 	width: 70%;
@@ -111,41 +103,17 @@ div#imagen img{
 }
 
 
-#particles-js {
+div#final{
 	width: 100%;
-	height: 100%
-	background:rgba(0,0,0,.8);
-	position: fixed;
-}
-
-
-#final{
-	width: 100%;
-	border-bottom: .1em solid #222;
-	border-top: .1em solid #222;
+	border-bottom: .1em solid #757575;
+	border-top: .1em solid #757575;
 	background-color: #222;
 	padding: 2em 5em;
-	position: relative;
-	overflow: hidden;
 }
-
-#final2{
-	width: 100%;
-	border-bottom: .1em solid #222;
-	border-top: .1em solid #222;
-	background-color: #222;
-	padding: .8em 0;
-	position: absolute;
-	bottom: 0px;
-}
-
-	a:link {color: #42A5F5}
-	a:visited {color: #757575}
 
 
 div#tablas{
 	overflow: hidden;
-	position: relative;
 }
 
 #imagen-george{
@@ -188,46 +156,6 @@ div#github{
 	
  }
 
- #Braulio{
-	background-color: #2196F3;
- }
-
- #Carlos{
- 	background-color: red;
- }
-
- #David{
- 	background-color: purple;
- }
-
- #Gaxiola{
- 	background-color: black;
- }
-
-div#Braulio, #Carlos{
-	float: left;
-	margin: auto;
-	width: 50%;
-	border-radius: 15px;
-	border-bottom: .1em solid #757575;
-	border-top: .1em solid #757575;
-	border-right: .1em solid #757575; 
-	border-left: .1em solid #757575;
-	position: relative;
-}
-
-div#David, #Gaxiola{
-	float: right;
-	margin: auto;
-	width: 50%;
-	border-radius: 15px;
-	border-bottom: .1em solid #757575;
-	border-top: .1em solid #757575;
-	border-right: .1em solid #757575; 
-	border-left: .1em solid #757575;
-	position: relative;
-}
-
  div#if, #s, #aux, #pp, #c{
 	margin: 1em;
 	display: inline-block;
@@ -261,13 +189,6 @@ div#contenido{
 	font-size: 15em;
 	text-align: center;
 }
-
-.icon-facebook2{
-	display: block;
-	font-size: 2em;
-	color: blue;
-}
-
 
 
 .primer-texto-barra-gris{

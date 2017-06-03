@@ -40,11 +40,6 @@ div#barra-gris h2{
 	text-align: center;
 }
 
-div#barra-gris2 h2{
-	color: #757575;
-	text-align: center;
-}
-
 div#Estructura h2{
 	color: #42A5F5;
 	text-align: center;
@@ -73,20 +68,6 @@ div#usos p{
 
 }
 
-div#video h2{
-	color: #42A5F5;
-	text-align: center;
-}
-
-div#video p{
-	text-align: center;
-	opacity: .87;
-	font-size: 20px;
-	text-decoration: none;
-	font-weight: lighter;
-
-}
-
 div#ejemplos h2{
 	color: #42A5F5;
 	text-align: center;
@@ -100,62 +81,6 @@ div#ejemplos p{
 	font-weight: lighter;
 
 }
-
-#Braulio h2{
-color: #42A5F5;
-	text-align: center;
- }
-
- #Carlos h2{
- 	color: #42A5F5;
-	text-align: center;
- }
-
- #David h2{
- 	color: #42A5F5;
-	text-align: center;
- }
-
- #Gaxiola h2{
- 	color: #42A5F5;
-	text-align: center;
- }
-
- #Braulio p{
-	text-align: center;
-	opacity: .87;
-	font-size: 20px;
-	text-decoration: none;
-	font-weight: lighter;
-	color: #E0E0E0;
- }
-
- #Carlos p{
- 		text-align: center;
-	opacity: .87;
-	font-size: 20px;
-	text-decoration: none;
-	font-weight: lighter;
-	color: #E0E0E0;	
- }
-
- #David p{
- 		text-align: center;
-	opacity: .87;
-	font-size: 20px;
-	text-decoration: none;
-	font-weight: lighter;
-	color: #E0E0E0;	
- }
-
- #Gaxiola p{
- 		text-align: center;
-	opacity: .87;
-	font-size: 20px;
-	text-decoration: none;
-	font-weight: lighter;
-	color: #E0E0E0;
- }
 
 div#tablas h2{
 	color: #42A5F5;
