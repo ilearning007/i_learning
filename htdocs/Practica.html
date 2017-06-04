@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Third Conditional</title>
+	<link rel="stylesheet" type="text/css" href="../estilos/estilos_practicas.css">
+	<link rel="stylesheet" type="text/css" href="../estilos/estilos_basicos.css">
+	<link rel="stylesheet" href="../estilos/estilos_navbar.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo|Roboto" rel="stylesheet">
+</head>
+<body>
+<body bgcolor="#EAEAEA">
+<div id="contenedor">
+	<header id="contenedor-barra-navegacion">
+		<!-- Barra de navegacion, o menu -->
+		<nav id="barra-de-navegacion">
+			<ul>
+				<li><a href="usos.html">Usos</a></li>
+				<li><a href="ejemplos.html">Ejemplos</a></li>
+				<li><a href="estructura.html">Estructura</a></li>
+				<li><a href="ejercicios.html">Ejercicios</a></li>
+			</ul>
+			<link rel="stylesheet" type="text/css" href="">
+		</nav>
+	</header>
+	</div>
+	<br><br>
+	<div id="todo">
+	<center><h1>Do what the instructions says and try to get every question rigth!</h1></center><br><br>
+	Use the rigth form of the verb inside the parentesis.<br><br>
+	<div id="completa">
+		<div id="preg-1">
+		I would have invited him if he had been free yesterday.(invite)
+		<br>
+			<input type="text" id="invited"><br><br>
+			<button onclick="atras14()">Next</button><br><br>
+		4/4
+		</div>
+		<div id="preg-2">
+		We would have bougth a pizza if you had been there.(buy)<br>
+			<input type="text" id="bougth"><br><br>
+			<button onclick="atras13()">Next</button><br><br>
+		3/4
+		</div>
+		<div id="preg-3">
+		If they hadn't destroyed the desk, the teacher would have writen on something.(destroy, write)<br><br>
+			<input type="text" id="destroyed">
+			<input type="text" id="writen">
+			<button onclick="atras12()">Next</button><br><br>
+			<p id="aqui"></p>
+		2/4
+		</div>
+		<div id="preg-4">
+		Would you have invited him if he hadn't bougth you that?(invite)<br>
+			<input  id="invited1"><br><br>
+
+			<button onclick="atras11()">Next</button><br><br>
+			
+		1/4
+		</div>
+		<div id="resultado1">
+			resultado
+		</div>
+		</div>
+		<br>
+		Unscramble the diferent sentences into a sentences whit sence.<br><br>
+		<div id="ordena">
+			<div id="preg-5">
+			Why would you have done if you hadn't time for that?<br><br>
+				<input type="text" id="Why would you have done if you hadn't time for that?"<br><br>
+			<button onclick="atras23()">Next</button><br><br>
+		3/3
+			</div>
+			<div id="preg-6">
+			I would have helped you, if you had asked.<br>
+				<input type="text" id="Why would you have done if you hadn't time for that?"><br><br>
+			<button onclick="atras22()">Next</button><br><br>
+		2/3
+			</div>
+			<div id="preg-7">
+			If they had been on holiday in June, the weather would have been better.<br><br>
+				<input type="text" id="If they had been on holiday in June, the weather would have been better."><br><br>
+			<button onclick="atras21()">Next</button><br><br>
+		1/3
+			</div>
+			<div id="resultado2">
+				resultado
+			</div>
+			</div>
+		<br><br><br>
+		Choose the rigth answer and click the botton to continue.<br><br>
+		<div id="elige">
+				<div id="preg-8">
+				I would have met you at the station if you had phoned me.<br>
+				
+					<input type="radio" name="3" value="1">
+					<input type="radio" name="3" value="2"><br>
+					<input type="radio" name="3" value="3">
+					<input type="radio" name="3" value="4"><br>
+					<br><br>
+			<button onclick="atras33()">Next</button><br><br>
+		3/3
+				</div>
+				<div id="preg-9">
+				If we had seen you, we would have stopped.<br>
+				
+					<input type="radio" name="2" value="1">
+					<input type="radio" name="2" value="2"><br>
+					<input type="radio" name="2" value="3">
+					<input type="radio" name="2" value="4"><br>
+					<br><br>
+			<button onclick="atras32()" onclick="muestro()"">Next</button><br><br>
+		2/3
+				</div>
+				<div id="preg-10">
+				If they had left earlier, they would have cougth the train.<br>
+					<input type="radio" name="1" value="1">Cosas y relleno
+					<input type="radio" name="1" value="2">Mas cosas
+					<input type="radio" name="1" value="3">Relleno
+					<input type="radio" name="1" value="4">la correcta
+			<br><br>
+			<button onclick="atras31()" onclick="muestro()">Next</button><br><br>
+		1/3
+				</div>
+				<div id="resultado3">
+					resultado
+				</div>
+			</div>	
+	</div>
+<script type="text/javascript">
+			function atras11() {
+			    document.getElementById("preg-4").style.zIndex = "-10";
+			}
+			function atras12() {
+			    document.getElementById("preg-3").style.zIndex = "-10";
+			}
+			function atras13() {
+			    document.getElementById("preg-2").style.zIndex = "-10";
+			}
+			function atras14() {
+			    document.getElementById("preg-1").style.zIndex = "-10";
+			}
+			function atras21() {
+			    document.getElementById("preg-7").style.zIndex = "-10";
+			}
+			function atras22() {
+			    document.getElementById("preg-6").style.zIndex = "-10";
+			}
+			function atras23() {
+			    document.getElementById("preg-5").style.zIndex = "-10";
+			}
+			function atras31() {
+			    document.getElementById("preg-10").style.zIndex = "-10";
+			}
+			function atras32() {
+			    document.getElementById("preg-9").style.zIndex = "-10";
+			}
+			function atras33() {
+			    document.getElementById("preg-8").style.zIndex = "-10";
+			}
+			
+</script>
+
+<script src="script_actividad.js"></script>
+</body>
+</html>
