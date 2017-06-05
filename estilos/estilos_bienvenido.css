@@ -1,0 +1,55 @@
+body{
+	background: url(../img/index/welcome.jpg);
+	overflow: hidden;
+	height: 40em;
+	background-position: center center;
+}
+
+h2{
+	text-align: center;
+	color: yellow;
+	font-size: 60px;
+	font-family: helvetica;
+}
+.contenedor-informacion-usuario{
+	margin-top: 3em;
+	width: 90%;
+	margin: auto;
+}
+
+.text{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	color: #000;
+	font-family: helvetica;
+	font-size: 60px;
+}
+
+.con{
+	margin: auto;
+	width: 50%;
+	background-color: #dedede;
+}
+
+.contenedor-informacion-usuario *{
+	color: white;
+}
+
+.contenedor-informacion-usuario p{
+	color: gray;
+	font-size: 30px;
+	font-family: Arial;
+	display: inline-block;
+}
+
+.contenedor-informacion-usuario span{
+	color: red;
+	font-size: 40px;
+
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}

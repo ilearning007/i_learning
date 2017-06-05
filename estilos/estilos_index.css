@@ -23,6 +23,16 @@
 	text-align: center;
 }
 
+.r-usuario{
+	font-size: 15px;
+	text-decoration: none;
+	color: lightblue;
+}
+
+.r-usuario:visited{
+	color: blue;
+}
+
 div.formulario{ 
 	padding: 1em 2em;
 	float: right;
@@ -77,18 +87,29 @@ div#barra-gris{
 }
 
 .imagen-izquierda  p{
+	margin-top: 1em;
+	margin-bottom: 1em;
 	float: left;
-	width: 80%;
+	width: 60%;
 }
 
-.imagen-derecha  p{
+.imagen-derecha  p, #video p{
+	margin-top: 1em;
+	margin-bottom: 1em;
 	float: right;
-	width: 80%;
+	width: 60%;
 }
 
 .imagen-arriba p{
+	margin-top: 1em;
 	text-align: center;
 	width: 70%;
+}
+
+#main div a, #video a{
+	display: block;
+	margin: 1em auto;
+	text-decoration: none;
 }
 
 
@@ -124,6 +145,9 @@ div.texto-george{
 	margin: 1em;
 }
 
+#ejemplos{
+	margin-top: 3em;
+}
 
 div#github{
 	float: left;
@@ -217,3 +241,39 @@ div#contenido{
 	div.formulario{
 		display: none;
 	}
+
+}
+
+
+
+
+
+
+	/*
+	*
+	*	Efectos  imagenes
+	*
+	*/
+
+ 		.logo {
+            -webkit-transition: all .6s ease-in-out;    /* safari - Chrome*/
+            -moz-transition: all .6s ease-in-out;       /* Firefox */
+            -o-transition: all .6s ease-in-out;         /* Opera */
+            transition: all .6s ease-in-out;
+        }
+        .logo:hover    {
+            -webkit-transform: rotate(360deg);  /* safari - Chrome*/
+            -moz-transform: rotate(360deg);     /* Firefox */
+            -o-transform: rotate(360deg);       /* Opera */
+            transform: rotate(360deg);
+        }
+
+.articulo:hover{
+	transform: scale(1.05);
+	box-shadow: 10px 10px 10px #E0E0E0;
+}
+
+
+#main div a:hover{
+	text-decoration: underline;
+}

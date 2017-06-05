@@ -1,10 +1,19 @@
+
 *{
 	box-sizing: border-box;
 }
 
 body{
 	margin: 0;
-	background-color: #284862;
+	background-color: #dedede;
+}
+
+.form-con{
+	margin-top: 10em;
+}
+
+header{
+	margin-bottom: 3em;
 }
 
 .form-registro{

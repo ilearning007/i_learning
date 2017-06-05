@@ -28,10 +28,12 @@ if (isset($_POST['enter'])) {
 		$resultado = mysqli_query($conexion1, $query);
 
 		if (!resultado) {
-			echo "error al registrar";
+			//echo "error al registrar";
+			header("location: ../index.html");
 		}
 		else{
-			echo "registrado exitosamente";
+			//echo "registrado exitosamente";
+			header("location: ../htdocs/bienvenido.html");
 		}
 	}
 

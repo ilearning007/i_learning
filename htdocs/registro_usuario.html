@@ -1,23 +1,49 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>I_Learning</title>
+	<!-- Este es el index -->
+	<meta charset="UTF-8">
+	<title>I_learning</title>
+	<link rel="stylesheet" type="text/css" href="../estilos/estilos_basicos.css">
+	<link rel="stylesheet" type="text/css" href="../estilos/estilos_index.css">
+	<link rel="stylesheet" href="../estilos/estilos_navbar.css">
 	<link rel="stylesheet" href="../estilos/estilos_formularios_registro_usuario.css">
-	<link rel="stylesheet" href="../estilos/estilos_basicos.css">
+	<!-- Etiqueta de adaptacion -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- Importa iconos -->
+	<link rel="stylesheet" href="Iconos/style.css">
+	<!-- Letra Google Fonts: Roboto, Baloo -->
+	<link href="https://fonts.googleapis.com/css?family=Baloo|Roboto" rel="stylesheet">
 </head>
 <body>
+<header id="contenedor-barra-navegacion">
+		<!-- Barra de navegacion, o menu -->
+		<nav id="barra-de-navegacion">
+			<ul>
+				<li class="icono-home"><a href="index.html"><span class="icon-home3"></span></a></li>
+				<li class="no-icono"><a href="htdocs/usos.html">Use</a></li>
+				<li class="no-icono"><a href="htdocs/ejemplos.html">Examples</a></li>
+				<li class="no-icono"><a href="htdocs/estructura.html">Structure</a></li>
+				<li class="no-icono"><a href="htdocs/ejercicios.html">Exercise</a></li>
+				<li class="icono icono-menu"><span class="icon-menu"></span></li>
+			</ul>
+		</nav>
+	</header>
 	
-	<form action="../php/registro_usuario.php" method="post" class="form-registro">
-		<h1 class="form-titulo">CREATE AN ACCOUNT</h1>
-		<div class="contenedor-inputs">
-			<input type="text" name="usr_name" placeholder="USER NAME" class="input-50" required>
-			<input type="text" name="apelliido-usuario" placeholder="LAST NAME" class="input-50" required>
-			<input type="email" name="usr_email" placeholder="EMAIL" class="input-100" required>
-			<input type="password" placeholder="PASSWORD" name="usr_pass" class="input-50" required>
-			<input type="password" placeholder="PASS CONFIRM" name="usr_pass_2" class="input-50" required>
-			<input type="submit" value="REGISTER" name="enter" class="btn-enviar">
-			<p class="form-p">Have an account<a href="inicio_sesion.html">Click here</a></p>
-		</div>
-	</form>
+	<div class="form-con">
+		<form action="../php/registro_usuario.php" method="post" class="form-registro">
+			<h1 class="form-titulo">CREATE AN ACCOUNT</h1>
+			<div class="contenedor-inputs">
+				<input type="text" name="usr_name" placeholder="USER NAME" class="input-50" required>
+				<input type="text" name="apelliido-usuario" placeholder="LAST NAME" class="input-50" required>
+				<input type="email" name="usr_email" placeholder="EMAIL" class="input-100" required>
+				<input type="password" placeholder="PASSWORD" name="usr_pass" class="input-50" required>
+				<input type="password" placeholder="PASS CONFIRM" name="usr_pass_2" class="input-50" required>
+				<input type="submit" value="REGISTER" name="enter" class="btn-enviar">
+				<p class="form-p">Have an account<a href="inicio_sesion.html">Click here</a></p>
+			</div>
+		</form>
+	</div>
 </body>
 </html>
