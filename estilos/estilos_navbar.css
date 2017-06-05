@@ -29,19 +29,19 @@ nav li > a{
 	text-decoration: none;
 	color: white;
 	border-radius: 15px;
-	padding: 1.3em 1.8em;
+	padding: 1.5em 2em;
 }
 
 #barra-de-navegacion .icon-menu{
 	display: none;
 }
 
-.icono-home a{
-	font-size: 18px;
+.icono-home{
+	font-size: 24px;
 	display: block;
 	color: white;
 	border-radius: 15px;
-	padding: 1em 1.5em;
+	padding: .8em 1.2em;
 }
 
 /*
