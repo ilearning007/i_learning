@@ -23,8 +23,14 @@
 	text-align: center;
 }
 
-header{
-	position: relative;
+.r-usuario{
+	font-size: 15px;
+	text-decoration: none;
+	color: lightblue;
+}
+
+.r-usuario:visited{
+	color: blue;
 }
 
 div.formulario{ 
@@ -46,15 +52,6 @@ div#barra-gris{
 	bottom: 0px;
 }
 
-div#barra-gris2{
-	width: 100%;
-	border-bottom: .1em solid #757575;
-	border-top: .1em solid #757575;
-	background-color: #E0E0E0;
-	padding: .8em 0;
-	position: relative;
-}
-
 
 /*      Informacion         */
 
@@ -71,7 +68,6 @@ div#barra-gris2{
 	background-color: #fff;
 	clear: both;
 	overflow: hidden;
-	position: relative;
 
 }
 
@@ -91,18 +87,29 @@ div#barra-gris2{
 }
 
 .imagen-izquierda  p{
+	margin-top: 1em;
+	margin-bottom: 1em;
 	float: left;
-	width: 80%;
+	width: 60%;
 }
 
-.imagen-derecha  p{
+.imagen-derecha  p, #video p{
+	margin-top: 1em;
+	margin-bottom: 1em;
 	float: right;
-	width: 80%;
+	width: 60%;
 }
 
 .imagen-arriba p{
+	margin-top: 1em;
 	text-align: center;
 	width: 70%;
+}
+
+#main div a, #video a{
+	display: block;
+	margin: 1em auto;
+	text-decoration: none;
 }
 
 
@@ -111,41 +118,17 @@ div#imagen img{
 }
 
 
-#particles-js{
+div#final{
 	width: 100%;
-	height: 100%
-	background:rgba(0,0,0,.8);
-	position: fixed;
-}
-
-
-#final{
-	width: 100%;
-	border-bottom: .1em solid #222;
-	border-top: .1em solid #222;
+	border-bottom: .1em solid #757575;
+	border-top: .1em solid #757575;
 	background-color: #222;
 	padding: 2em 5em;
-	position: relative;
-	overflow: hidden;
 }
-
-#final2{
-	width: 100%;
-	border-bottom: .1em solid #222;
-	border-top: .1em solid #222;
-	background-color: #222;
-	padding: .8em 0;
-	position: absolute;
-	bottom: 0px;
-}
-
-	a:link {color: #E0E0E0}
-	a:visited {color: #757575}
 
 
 div#tablas{
 	overflow: hidden;
-	position: relative;
 }
 
 #imagen-george{
@@ -162,6 +145,9 @@ div.texto-george{
 	margin: 1em;
 }
 
+#ejemplos{
+	margin-top: 3em;
+}
 
 div#github{
 	float: left;
@@ -187,46 +173,6 @@ div#github{
 	border-left: .1em solid #757575;
 	
  }
-
- #Braulio{
-	background-color: #2196F3;
- }
-
- #Carlos{
- 	background-color: red;
- }
-
- #David{
- 	background-color: purple;
- }
-
- #Gaxiola{
- 	background-color: black;
- }
-
-div#Braulio, #Carlos{
-	float: left;
-	margin: auto;
-	width: 50%;
-	border-radius: 15px;
-	border-bottom: .1em solid #757575;
-	border-top: .1em solid #757575;
-	border-right: .1em solid #757575; 
-	border-left: .1em solid #757575;
-	position: relative;
-}
-
-div#David, #Gaxiola{
-	float: right;
-	margin: auto;
-	width: 50%;
-	border-radius: 15px;
-	border-bottom: .1em solid #757575;
-	border-top: .1em solid #757575;
-	border-right: .1em solid #757575; 
-	border-left: .1em solid #757575;
-	position: relative;
-}
 
  div#if, #s, #aux, #pp, #c{
 	margin: 1em;
@@ -262,13 +208,6 @@ div#contenido{
 	text-align: center;
 }
 
-.icon-facebook2{
-	display: block;
-	font-size: 2em;
-	color: blue;
-}
-
-
 
 .primer-texto-barra-gris{
 	display: block;
@@ -303,6 +242,38 @@ div#contenido{
 		display: none;
 	}
 
-	#particles-js {
-		display: none;
-	}
+}
+
+
+
+
+
+
+	/*
+	*
+	*	Efectos  imagenes
+	*
+	*/
+
+ 		.logo {
+            -webkit-transition: all .6s ease-in-out;    /* safari - Chrome*/
+            -moz-transition: all .6s ease-in-out;       /* Firefox */
+            -o-transition: all .6s ease-in-out;         /* Opera */
+            transition: all .6s ease-in-out;
+        }
+        .logo:hover    {
+            -webkit-transform: rotate(360deg);  /* safari - Chrome*/
+            -moz-transform: rotate(360deg);     /* Firefox */
+            -o-transform: rotate(360deg);       /* Opera */
+            transform: rotate(360deg);
+        }
+
+.articulo:hover{
+	transform: scale(1.05);
+	box-shadow: 10px 10px 10px #E0E0E0;
+}
+
+
+#main div a:hover{
+	text-decoration: underline;
+}
