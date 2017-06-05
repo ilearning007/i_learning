@@ -1,191 +1,57 @@
-    #empieza{
-    width: 750px;
+#quiz{
+    width: 600px;
+    height: 500px;
     margin: 0 auto;
     background-color: #fff;
-    padding: 10px 50px  50px 50px;
+    padding: 10px 50px 50px 50px;
     border-radius: 50px;
-    border:2px solid #cbcbcb;
-    box-shadow: 10px 15px 5px #cbcbcb;
-    font-family: baloo;
-    color: #555555;
-    }
-    #resultado{
-    width: 750px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 10px 50px  50px 50px;
-    border-radius: 50px;
-    border:2px solid #cbcbcb;
-    box-shadow: 10px 15px 5px #cbcbcb;
-    font-family: baloo;
-    color: #555555;
-    display: none;}
-    
-    #empieza button{
-    width: 750px;
-    margin: 0 auto;
-    background-color: #fff;
-    border-radius: 50px;
-    border:2px solid #cbcbcb;
-    box-shadow: 10px 15px 5px #cbcbcb;
-    font-family: baloo;
-    color: #555555;
-    border-radius: 50px;
-    font-size: 2em;
-}
-    #empieza button:enabled:hover{
-    background-color: #92E5FA;
-    color: #00ABFF;
-    border: #92E5FA;
-}
-#correctos{
-    width: 750px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 10px 50px  50px 50px;
-    border-radius: 50px;
-    border:2px solid #cbcbcb;
-    box-shadow: 10px 15px 5px #cbcbcb;
-    font-family: baloo;
-    color: #555555;
-    display: none;
-}
-    #extras button{
-    width: 750px;
-    margin: 0 auto;
-    background-color: #fff;
-    border-radius: 50px;
-    border:2px solid #cbcbcb;
-    box-shadow: 10px 15px 5px #cbcbcb;
-    font-family: baloo;
-    color: #555555;
-    border-radius: 50px;
-    font-size: 2em;
+    border: 2px solid #cbcbcb;
+    box-shadow: 15px 20px 10px solid #cbcbcb;
+
 }
 
-    #todo{
-    width: 750px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 10px 50px  50px 50px;
+#quiz h1{
+    font-family: sans-serif;
+    background-color: #42A5F5;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    padding: 2px 0px;
     border-radius: 50px;
-    border:2px solid #cbcbcb;
-    box-shadow: 10px 15px 5px #cbcbcb;
-    font-family: baloo;
-    color: #555555;
-    display: none;
-
-    }
-    #completa{
-    position: relative;
-    height: 18em;
-    color: #cbcbcb;
-    }
-    #elige{ 
-    position: relative;
-    height: 25em;
-    color: #cbcbcb;
-    }
-    #ordena{
-    position: relative;
-    height: 12em;
-    color: #cbcbcb;
-    }
-    #ordena input{
-    width: 40em;
-    }
-    input{
-    height: 2em;
-    border-radius: 50px;
-    border:2px solid #cbcbcb;
-    box-shadow: 10px 15px 5px #cbcbcb;
-    font-family: baloo;
-    color: #555555;
-    }
-    div[id*="resultado"]{
-    width: 650px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 10px 50px  50px 50px;
-    border-radius: 50px;
-    border:2px solid #cbcbcb;
-    list-style: none;
-    position: absolute;
-    }
-    div[id*="preg-"]{
-    width: 650px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 10px 50px  50px 50px;
-    border-radius: 50px;
-    border:2px solid #cbcbcb;
-    list-style: none;
-
-    }
-   		#preg-1{
-   			position: absolute;
-			z-index:1 
-    }
-        #preg-2{
-        	position: absolute;
-			z-index: 2
-    }
-        #preg-3{
-        	position: absolute;
-			z-index: 3
-    }
-        #preg-4{
-        	position: absolute;
-			z-index: 4
-    }
-        #preg-5{
-        	position: absolute;
-			z-index:5 
-    }
-        #preg-6{
-        	position: absolute;
-			z-index: 6
-    }
-        #preg-7{
-        	position: absolute;
-			z-index: 7
-    }
-        #preg-8{
-        	position: absolute;
-			z-index: 8
-    }
-        #preg-9{
-        	position: absolute;
-			z-index: 9
-    }    
-    	#preg-10{
-    		position: absolute;
-			z-index:10;
-
-    }
-#preg-10,#preg-9,#preg-8{
-    height: 20em;
 }
-button{
-    height: 2em;
-    border-radius: 50px;
-    border:2px solid #cbcbcb;
-    width: 5em;
-}
-#todo button:enabled:hover{
-    background-color: #92E5FA;
-    color: #00ABFF;
-    border: #92E5FA;
-}
-h1{
-    font-family: roboto;
-    color: #555555;
 
-} 
-button:disabled{
-    background-color: #E8E8E8;
-    color: #D2D2D2;
+#quiz #pregunta{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #5a6772;
 }
-button:disabled:hover{
-    background-color:#D2D2D2; 
-    color: #E8E8E8;
+
+.buttons{
+    margin-top: 30px;
+}
+
+#respuesta{
+    background-color: #42A5F5;
+    font-size: 20px;
+    width: 250px;
+    color: #fff;
+    border: 1px solid #1d3c6a;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#progress{
+    color: #2b2b2b;
+    font-size: 18px;
+}
+
+#respuesta{
+   cursor: pointer;
+   background-color: #2366F2;
+}
+
+
+#respuesta{
+  outline: 0;
+}
