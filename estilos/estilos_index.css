@@ -58,7 +58,9 @@ div#barra-gris{
 	background-color: #fff;
 	clear: both;
 	overflow: hidden;
+
 }
+
 
 .imagen-izquierda  img{
 	float: left;
@@ -81,7 +83,7 @@ div#barra-gris{
 	width: 60%;
 }
 
-.imagen-derecha  p{
+.imagen-derecha  p, #video p{
 	margin-top: 1em;
 	margin-bottom: 1em;
 	float: right;
@@ -94,7 +96,7 @@ div#barra-gris{
 	width: 70%;
 }
 
-#main div a{
+#main div a, #video a{
 	display: block;
 	margin: 1em auto;
 	text-decoration: none;
@@ -133,6 +135,9 @@ div.texto-george{
 	margin: 1em;
 }
 
+#ejemplos{
+	margin-top: 3em;
+}
 
 div#github{
 	float: left;
@@ -226,17 +231,38 @@ div#contenido{
 	div.formulario{
 		display: none;
 	}
-}
-/*
-*
-*	Animaciones
-*
-*/
 
-div.articulo:hover{
-	box-shadow: 5px 5px 5px #E0E0E0;
-	width: 85%;
 }
+
+
+
+
+
+
+	/*
+	*
+	*	Efectos  imagenes
+	*
+	*/
+
+ 		.logo {
+            -webkit-transition: all .6s ease-in-out;    /* safari - Chrome*/
+            -moz-transition: all .6s ease-in-out;       /* Firefox */
+            -o-transition: all .6s ease-in-out;         /* Opera */
+            transition: all .6s ease-in-out;
+        }
+        .logo:hover    {
+            -webkit-transform: rotate(360deg);  /* safari - Chrome*/
+            -moz-transform: rotate(360deg);     /* Firefox */
+            -o-transform: rotate(360deg);       /* Opera */
+            transform: rotate(360deg);
+        }
+
+.articulo:hover{
+	transform: scale(1.05);
+	box-shadow: 10px 10px 10px #E0E0E0;
+}
+
 
 #main div a:hover{
 	text-decoration: underline;

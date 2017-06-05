@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 
-header span, #vista-inicio{
+header span, #vista-inicio, #form-registro-usuario{
 	/* Importando letra estilo Roboto */
 	font-family: 'Roboto', sans-serif;
 
@@ -54,12 +54,12 @@ div#Estructura p{
 
 }
 
-div#usos h2{
+div#usos h2, #video h2{
 	color: #42A5F5;
 	text-align: center;
 }
 
-div#usos p{
+div#usos p, #video p{
 	text-align: center;
 	opacity: .87;
 	font-size: 20px;
