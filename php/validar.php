@@ -12,23 +12,7 @@ $resultado=mysqli_query($conexion, $consulta);
 $filas=mysqli_num_rows($resultado);
 
 if ($filas > 0) {
-
-			if ($usuario == 'pepe') {
-				header("location: ../htdocs/bienvenido.html?b");
-			} 
-			elseif (isset($_GET['c'])) {
-				echo "Carlos@hotmail.com";
-			}
-			elseif (isset($_GET['j'])) {
-				echo "JosecruzGaxiola@hotmail.com";
-			}
-			elseif (isset($_GET['b'])) {
-				echo "BraulioCadena@hotmail.com";
-			}
-			else{
-				echo "sorry, we have an error with the database";
-			}
-	
+	header("location: ../htdocs/bienvenido.html");
 }
 else{
 	header("location: ../index.html?i");

@@ -1,7 +1,7 @@
 <?php 
 
 !isset($_POST)? die("acceso denegado") : '';
-//require 'config/config.php';
+require 'config/config.php';
 require 'conexion.class.php';
 $db = new Conexion();
 
