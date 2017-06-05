@@ -1,76 +1,154 @@
-    div.Contenido {
-        float: left;
-        margin-right: 10px;
-        width: 80%;
-        background-color: white;
-        border-radius: 9px;
-        text-align: center;
+    #empieza{
+    width: 750px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px  50px 50px;
+    border-radius: 50px;
+    border:2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+    font-family: baloo;
+    color: #555555;
     }
-    div.Titulo {
-        clear: left;
-        float: left;
-		width: 80%;
-        margin-top: 10px;
-        background-color: white;
-        border-radius: 9px;
-    }    
-	div.Barra{
-		
-	}
+    #empieza button{
+    width: 750px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 50px;
+    border:2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+    font-family: baloo;
+    color: #555555;
+    border-radius: 50px;
+    font-size: 2em;
+}
+    #empieza button:enabled:hover{
+    background-color: #92E5FA;
+    color: #00ABFF;
+    border: #92E5FA;
+}
+    #todo{
+    width: 750px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px  50px 50px;
+    border-radius: 50px;
+    border:2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+    font-family: baloo;
+    color: #555555;
+    display: none;
 
-    div.Relacionados {
-        overflow: hidden;
-        background-color: white;
-        border-radius: 9px;
-        width: 18%;
-        margin-bottom: 1em;
     }
-
-    div[class*="preg-"]{
-    	background-color: white;
-    	width: 80%;
-    	height: 10em;
-    	border-radius: 9px;
+    #completa{
+    position: relative;
+    height: 18em;
+    color: #cbcbcb;
+    }
+    #elige{ 
+    position: relative;
+    height: 25em;
+    color: #cbcbcb;
+    }
+    #ordena{
+    position: relative;
+    height: 12em;
+    color: #cbcbcb;
+    }
+    #ordena input{
+    width: 40em;
+    }
+    input{
+    height: 2em;
+    border-radius: 50px;
+    border:2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+    font-family: baloo;
+    color: #555555;
+    }
+    div[id*="resultado"]{
+    width: 650px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px  50px 50px;
+    border-radius: 50px;
+    border:2px solid #cbcbcb;
+    list-style: none;
+    position: absolute;
+    }
+    div[id*="preg-"]{
+    width: 650px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px  50px 50px;
+    border-radius: 50px;
+    border:2px solid #cbcbcb;
+    list-style: none;
 
     }
-   		.preg-1{
+   		#preg-1{
    			position: absolute;
 			z-index:1 
     }
-        .preg-2{
+        #preg-2{
         	position: absolute;
 			z-index: 2
     }
-        .preg-3{
+        #preg-3{
         	position: absolute;
 			z-index: 3
     }
-        .preg-4{
+        #preg-4{
         	position: absolute;
 			z-index: 4
     }
-        .preg-5{
+        #preg-5{
         	position: absolute;
 			z-index:5 
     }
-        .preg-6{
+        #preg-6{
         	position: absolute;
 			z-index: 6
     }
-        .preg-7{
+        #preg-7{
         	position: absolute;
 			z-index: 7
     }
-        .preg-8{
+        #preg-8{
         	position: absolute;
 			z-index: 8
     }
-        .preg-9{
+        #preg-9{
         	position: absolute;
 			z-index: 9
     }    
-    	.preg-10{
+    	#preg-10{
     		position: absolute;
-			z-index:10 
-    }
+			z-index:10;
 
+    }
+#preg-10,#preg-9,#preg-8{
+    height: 20em;
+}
+button{
+    height: 2em;
+    border-radius: 50px;
+    border:2px solid #cbcbcb;
+    width: 5em;
+}
+#todo button:enabled:hover{
+    background-color: #92E5FA;
+    color: #00ABFF;
+    border: #92E5FA;
+}
+h1{
+    font-family: roboto;
+    color: #555555;
+
+} 
+button:disabled{
+    background-color: #E8E8E8;
+    color: #D2D2D2;
+}
+button:disabled:hover{
+    background-color:#D2D2D2; 
+    color: #E8E8E8;
