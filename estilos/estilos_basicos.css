@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 
-header span, #vista-inicio{
+header span, #vista-inicio, #form-registro-usuario{
 	/* Importando letra estilo Roboto */
 	font-family: 'Roboto', sans-serif;
 
@@ -40,11 +40,6 @@ div#barra-gris h2{
 	text-align: center;
 }
 
-div#barra-gris2 h2{
-	color: #757575;
-	text-align: center;
-}
-
 div#Estructura h2{
 	color: #42A5F5;
 	text-align: center;
@@ -59,26 +54,12 @@ div#Estructura p{
 
 }
 
-div#usos h2{
+div#usos h2, #video h2{
 	color: #42A5F5;
 	text-align: center;
 }
 
-div#usos p{
-	text-align: center;
-	opacity: .87;
-	font-size: 20px;
-	text-decoration: none;
-	font-weight: lighter;
-
-}
-
-div#video h2{
-	color: #42A5F5;
-	text-align: center;
-}
-
-div#video p{
+div#usos p, #video p{
 	text-align: center;
 	opacity: .87;
 	font-size: 20px;
@@ -100,62 +81,6 @@ div#ejemplos p{
 	font-weight: lighter;
 
 }
-
-#Braulio h2{
-color: #42A5F5;
-	text-align: center;
- }
-
- #Carlos h2{
- 	color: #42A5F5;
-	text-align: center;
- }
-
- #David h2{
- 	color: #42A5F5;
-	text-align: center;
- }
-
- #Gaxiola h2{
- 	color: #42A5F5;
-	text-align: center;
- }
-
- #Braulio p{
-	text-align: center;
-	opacity: .87;
-	font-size: 20px;
-	text-decoration: none;
-	font-weight: lighter;
-	color: #E0E0E0;
- }
-
- #Carlos p{
- 		text-align: center;
-	opacity: .87;
-	font-size: 20px;
-	text-decoration: none;
-	font-weight: lighter;
-	color: #E0E0E0;	
- }
-
- #David p{
- 		text-align: center;
-	opacity: .87;
-	font-size: 20px;
-	text-decoration: none;
-	font-weight: lighter;
-	color: #E0E0E0;	
- }
-
- #Gaxiola p{
- 		text-align: center;
-	opacity: .87;
-	font-size: 20px;
-	text-decoration: none;
-	font-weight: lighter;
-	color: #E0E0E0;
- }
 
 div#tablas h2{
 	color: #42A5F5;

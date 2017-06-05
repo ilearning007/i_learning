@@ -1,3 +1,31 @@
+    #empieza{
+    width: 750px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px  50px 50px;
+    border-radius: 50px;
+    border:2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+    font-family: baloo;
+    color: #555555;
+    }
+    #empieza button{
+    width: 750px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 50px;
+    border:2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+    font-family: baloo;
+    color: #555555;
+    border-radius: 50px;
+    font-size: 2em;
+}
+    #empieza button:enabled:hover{
+    background-color: #92E5FA;
+    color: #00ABFF;
+    border: #92E5FA;
+}
     #todo{
     width: 750px;
     margin: 0 auto;
@@ -8,6 +36,7 @@
     box-shadow: 10px 15px 5px #cbcbcb;
     font-family: baloo;
     color: #555555;
+    display: none;
 
     }
     #completa{
@@ -104,13 +133,22 @@ button{
     height: 2em;
     border-radius: 50px;
     border:2px solid #cbcbcb;
-    box-shadow: 10px 15px 5px #cbcbcb;
     width: 5em;
 }
-#todo button:hover{
-    background-color: #cbcbcb;
+#todo button:enabled:hover{
+    background-color: #92E5FA;
+    color: #00ABFF;
+    border: #92E5FA;
 }
 h1{
     font-family: roboto;
-    color: #555555
+    color: #555555;
+
 } 
+button:disabled{
+    background-color: #E8E8E8;
+    color: #D2D2D2;
+}
+button:disabled:hover{
+    background-color:#D2D2D2; 
+    color: #E8E8E8;
