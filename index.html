@@ -8,8 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="estilos/estilos_index.css">
 	<link rel="stylesheet" href="estilos/estilos_navbar.css">
 	<link rel="stylesheet" href="estilos/estilos_formularios.css">
-	<!-- Etiqueta de adaptacion -->
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<!-- Importa iconos -->
 	<link rel="stylesheet" href="Iconos/style.css">
 	<!-- Letra Google Fonts: Roboto, Baloo -->
@@ -22,15 +20,20 @@
 		<nav id="barra-de-navegacion">
 			<ul>
 				<li class="icono-home"><a href="index.html"><span class="icon-home3"></span></a></li>
-				<li class="no-icono"><a href="htdocs/usos.html">Use</a></li>
-				<li class="no-icono"><a href="htdocs/ejemplos.html">Examples</a></li>
-				<li class="no-icono"><a href="htdocs/estructura.html">Structure</a></li>
-				<li class="no-icono"><a href="htdocs/ejercicios.html">Exercise</a></li>
-				<li class="icono icono-menu"><span class="icon-menu"></span></li>
+				<li><a href="">User</a><ul>
+					<li><a href="#">Sing UP</a></li>
+				</ul></li> 
+				<li><a href="usos.html">Uses</a></li>
+				<li><a href="ejemplos.html">Examples</a></li>
+				<li ><a href="estructura.html">Structure</a>
+					<ul>
+						<li><a href="">Third Conditional</a></li><br>
+					</ul>
+				</li>
+				<li><a href="ejercicios.html">Ejercicios</a></li>
 			</ul>
 		</nav>
 	</header>
-	
 	<!-- Informacion sobre imagen de fondo -->
 	<div id="ventana-primera-vista">
 		<div id="vista-inicio">
@@ -41,13 +44,12 @@
 				</div>
 				<!-- Formulario de inicio de sesion -->
 				<div class="formulario">
-					<form method="post" id="acceso" action="php/validar.php">
+					<form method="post" id="acceso">
 						<label for="usrname">Username or email</label><br>
 						<input type="text" name="usrname" class="input-usuario" id="in-user"><br>
 						<label for="pass">Password</label><br>
 						<input type="password" name="pass" class="input-contra" id="in-password"><br><br>
 						<input type="submit" name="submit" value="ACCEPT" class="submit" id="btn-submit">
-						<a href="htdocs/registro_usuario.html">Registrar usuario</a>
 					</form>
 				</div>
 			</div>
@@ -61,9 +63,9 @@
 			<section id="main">
 
 			<div id="Estructura" class="articulo imagen-izquierda">
-				<a href="htdocs/estructura.html" id="link-estructura"><h2>Learn your structures></h2></a>
+				<a href="htdocs/estructura.html"><h2>Learn your structures</h2></a>
 				<div class="informacion-articulo">
-					<img src="img/index/hablaringles.jpg" class="logo">
+					<img src="img/index/hablaringles.jpg">
 					
 					<p>Make use of reason, learn the structures of the third conditional,<br> with ilearning, prepare to speak in just one day.</p>
 				</div>
@@ -72,8 +74,8 @@
 			<br><br>
 
 			<div id="usos" class="articulo imagen-derecha">
-				<a href="htdocs/usos.html"><h2>Learn about their uses in any situation></h2></a>
-				<img src="img/index/computadora.png" class="logo">
+				<a href="htdocs/usos.html"><h2>Learn about their uses in any situation</h2></a>
+				<img src="img/index/computadora.png">
 				<p> We have their use, thanks to the native speaker contributors,<br> know where the third conditional is used,<br> remember that you can support us with your contributions.</p>
 			</div>
 			<br><br>
@@ -86,18 +88,18 @@
 			</div>
 
 			<div id="ejemplos" class="articulo imagen-izquierda">
-				<a href="htdocs/ejemplos.html"><h2>Contextualized thanks to the examples></h2></a>
+				<a href="htdocs/ejemplos.html"><h2>Contextualized thanks to the examples</h2></a>
 				<div class="informacion-articulo">
-					<img src="img/index/barcelona.jpg" class="logo"> 
+					<img src="img/index/barcelona.jpg"> 
 					<p> Thanks to your examples, you only need to find the context that<br> is necessary for you at any time, and adapt it to your situation,<br> you can also add your own examples to help the i_learning community. </p>
 				</div>
 			</div>
 			<br><br>
 
 			<div id="video" class="articulo imagen-derecha">
-				<a href=""><h2>Video-Tutorial</h2></a>
-				<img src="img/index/video.jpg">
-				<p>Here we leave a video for you to learn in a better way,<br> if it is easier for you to learn by watching and listening here,<br> we leave you this video tutorial made by ourselves.</p>
+				<h2></h2>
+				<img src="">
+				<p></p>
 
 			</div>
 
@@ -106,13 +108,13 @@
 			<div id="tablas">
 						<div id="github" class="imagen-arriba">
 							<span class="icon-github"></span>
-							<a href="https://github.com/"><h2>Help us improve></h2></a>
+							<a href="https://github.com/"><h2>Help us improve</h2></a>
 							<p> I_learning is an open source project, made by and for you, if you are an altruistic programmer, go to github and help us to improve.</p>
 						</div>
 
 						<div id="trofeo" class="imagen-arriba">
 							<span class="icon-trophy"></span> 
-							<a href="htdocs/ejercicios.html"><h2>Learn playing></h2></a>
+							<a href="htdocs/ejercicios.html"><h2>Learn playing</h2></a>
 							<p> Learn to have fun, with exercises to reinforce learning, compare your score with participants from around the world, demonstrate how much you know, receive rewards, play in world tournaments, anywhere, with i_learning alone. </p>
 						</div>
 			</div>
