@@ -1,4 +1,5 @@
 #vista-inicio{
+	background-image: url("../img/index/persona_aprendiendo.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center center;
@@ -76,29 +77,18 @@ div#barra-gris{
 }
 
 .imagen-izquierda  p{
-	margin-top: 1em;
-	margin-bottom: 1em;
 	float: left;
-	width: 60%;
+	width: 80%;
 }
 
-.imagen-derecha  p, #video p{
-	margin-top: 1em;
-	margin-bottom: 1em;
+.imagen-derecha  p{
 	float: right;
-	width: 60%;
+	width: 80%;
 }
 
 .imagen-arriba p{
-	margin-top: 1em;
 	text-align: center;
 	width: 70%;
-}
-
-#main div a, #video a{
-	display: block;
-	margin: 1em auto;
-	text-decoration: none;
 }
 
 
@@ -134,9 +124,6 @@ div.texto-george{
 	margin: 1em;
 }
 
-#ejemplos{
-	margin-top: 3em;
-}
 
 div#github{
 	float: left;
@@ -230,39 +217,3 @@ div#contenido{
 	div.formulario{
 		display: none;
 	}
-
-}
-
-
-
-
-
-
-	/*
-	*
-	*	Efectos  imagenes
-	*
-	*/
-
- 		.logo {
-            -webkit-transition: all .6s ease-in-out;    /* safari - Chrome*/
-            -moz-transition: all .6s ease-in-out;       /* Firefox */
-            -o-transition: all .6s ease-in-out;         /* Opera */
-            transition: all .6s ease-in-out;
-        }
-        .logo:hover    {
-            -webkit-transform: rotate(360deg);  /* safari - Chrome*/
-            -moz-transform: rotate(360deg);     /* Firefox */
-            -o-transform: rotate(360deg);       /* Opera */
-            transform: rotate(360deg);
-        }
-
-.articulo:hover{
-	transform: scale(1.05);
-	box-shadow: 10px 10px 10px #E0E0E0;
-}
-
-
-#main div a:hover{
-	text-decoration: underline;
-}

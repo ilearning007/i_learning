@@ -1,16 +1,26 @@
+*{
+	text-decoration: none;
+}
+#trofeo p{
+	margin-left: 5em;
+}
+#github p{
+	margin-left: 5em;
+}
 header{
 	padding: .2em;
 	background-color: #42A5F5;
-}
+	height: 4em;
 
+}
 /* Lista de barra de navegacion */
 #barra-de-navegacion li{
-	display: inline-block;
+	display:block;
+	float: left;
 	background-color: #42A5F5;
 	color: white;
 	border-radius: 15px;
 }
-
 #barra-de-navegacion li:hover{
 	background-color: #01579B;
 	color: white;
@@ -29,21 +39,28 @@ nav li > a{
 	text-decoration: none;
 	color: white;
 	border-radius: 15px;
-	padding: 1.3em 1.8em;
+	padding: 1.2em 2em;
 }
 
+nav li>ul {
+	background-color:#42A5F5; 
+	display: none;
+	
+}
+nav li:hover >ul{
+	display: block;
+	position: absolute;
+	z-index: 25;
+}
 #barra-de-navegacion .icon-menu{
 	display: none;
 }
 
-.icono-home a{
-	font-size: 18px;
+.icono-home{
 	display: block;
 	color: white;
 	border-radius: 15px;
-	padding: 1em 1.5em;
 }
-
 /*
  *	Adaptacion a moviles 
  */
@@ -59,6 +76,7 @@ nav li > a{
 		color: white;
 		border-radius: 15px;
 		padding: .8em 1.2em;
+		float: left;
 	}
 
 	li.icono{
@@ -70,10 +88,8 @@ nav li > a{
 	}
 
 	.icono-home{
-		float: left;
+		
 		font-size: 24px;
 		padding: .2em 1em;
 		color: white;
 	}
-
-}
